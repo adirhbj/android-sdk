@@ -1,0 +1,55 @@
+aplikasi Spotify. Kemampuan SDK ini mencakup otentikasi dan mendapatkan metadata untuk trek dan konteks yang sedang diputar, mengeluarkan perintah pemutaran, dan memulai pemutaran trek, album, atau daftar putar.
+
+The Spotify Android SDKterdiri dari dua perpustakaan
+
+Spotify App Remotemengelola pemutaran audio melalui aplikasi Spotify Musicapp-remote-control hanya menggunakan .
+
+Spotify Authentication Librarymenangani alur autentikasi dan panggilan Spotify Web API .
+
+Perpustakaan bekerja sama dengan baik tetapi juga dapat digunakan secara terpisah. Misalnya, jika aplikasi tidak perlu memutar musik tetapi membutuhkan login pengguna atau kemampuan API Web dengan cakupan lain, Anda dapat menggunakannya Spotify Authentication Librarysendiri.
+
+Kepala ke Spotify untuk Pengembang untuk lebih banyak membaca tentang SDK Android.
+
+Aplikasi Spotify Jarak Jauh
+
+Pustaka ini berisi kelas untuk kontrol pemutaran musik dan akses metadata. Otentikasi bawaan di App Remote app-control-scopehanya meminta , dan merupakan satu-satunya cakupan yang diperlukan untuk menggunakan App Remote. Tidak ada pertukaran token. Jika lebih banyak cakupan diperlukan untuk panggilan terkait web-api maka gunakan Spotify Authentication Library.
+
+Aplikasi Spotify Jarak Jauh README
+
+Perpustakaan Otentikasi Spotify
+
+Pustaka ini menyediakan cara untuk mendapatkan token akses OAuth yang selanjutnya dapat digunakan untuk memutar musik atau digunakan dalam panggilan ke Spotify Web API .
+
+Perpustakaan Otentikasi Spotify adalah proyek sumber terbuka.
+
+Perpustakaan Otentikasi Spotify README
+
+Mulai
+
+Ikuti dokumentasi mulai cepat di Spotify untuk Pengembang .
+
+Jalankan kode sampel dalam modul sampel -jauh-jauh dan sampel - auth .
+
+Tambahkan perpustakaan sebagai dependensi modul ke proyek Anda.
+
+Lisensi
+
+Copyright © 2018 Spotify AB.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+
+distributed under the License is distributed on an "AS IS" BASIS,
+
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and
+
+limitations under the License.kami
